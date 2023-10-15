@@ -17,7 +17,7 @@ img_gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
 # Create a mask with the same dimensions as the grayscale image
 mask = np.zeros_like(img_gray)
 # Load the second image
-img2 = cv2.imread("/Users/reignerouano/DeepFake/leonardo.webp")
+img2 = cv2.imread("/Users/reignerouano/DeepFake/leonardo.jpg")
 # Convert the second image to grayscale
 img2_gray = cv2.cvtColor(img2, cv2.COLOR_BGR2GRAY)
 
